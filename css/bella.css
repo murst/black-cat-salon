@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'MarketingScriptRegular';
+    src: url('fonts/MarketingScript-webfont.eot');
+    src: url('fonts/MarketingScript-webfont.eot?iefix') format('eot'),
+         url('fonts/MarketingScript-webfont.woff') format('woff'),
+         url('fonts/MarketingScript-webfont.ttf') format('truetype'),
+         url('fonts/MarketingScript-webfont.svg#webfontZ5AiaAsu') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*
+@font-face {
+    font-family: 'ComfortaaThin';
+    src: url('fonts/Comfortaa_Thin-webfont.eot');
+    src: url('fonts/Comfortaa_Thin-webfont.eot?iefix') format('eot'),
+         url('fonts/Comfortaa_Thin-webfont.woff') format('woff'),
+         url('fonts/Comfortaa_Thin-webfont.ttf') format('truetype'),
+         url('fonts/Comfortaa_Thin-webfont.svg#webfontPRjOry6B') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
+
+@font-face {
+    font-family: 'ComfortaaRegular';
+    src: url('fonts/Comfortaa_Regular-webfont.eot');
+    src: url('fonts/Comfortaa_Regular-webfont.eot?iefix') format('eot'),
+         url('fonts/Comfortaa_Regular-webfont.woff') format('woff'),
+         url('fonts/Comfortaa_Regular-webfont.ttf') format('truetype'),
+         url('fonts/Comfortaa_Regular-webfont.svg#webfontBAjBLipc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*
+@font-face {
+    font-family: 'ComfortaaBold';
+    src: url('fonts/Comfortaa_Bold-webfont.eot');
+    src: url('fonts/Comfortaa_Bold-webfont.eot?iefix') format('eot'),
+         url('fonts/Comfortaa_Bold-webfont.woff') format('woff'),
+         url('fonts/Comfortaa_Bold-webfont.ttf') format('truetype'),
+         url('fonts/Comfortaa_Bold-webfont.svg#webfontjS9G6V0p') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
+
+a
+{
+    outline: 0;
+}
+
+td
+{
+    line-height: 90%;
+}
+
+h1, h2, h3
+{
+    font-family: 'MarketingScriptRegular', Arial, sans-serif;  
+}
+
+h1
+{
+    font-size: 300%;
+    margin-bottom: 0;
+}
+
+body 
+{
+    margin: 0px;
+    font-family: 'ComfortaaRegular', Arial, sans-serif;
+    color: #474747;
+}
+
+img
+{
+    border: 0px;   
+}
+
+.price
+{
+    margin-left: 5px;
+    font-family: 'MarketingScriptRegular', Arial, sans-serif;  
+    font-weight: bold;   
+}
+
+.price sup
+{
+    font-size: 6pt;
+    text-decoration: underline;   
+}
+
+#content
+{
+    background:#ffffff url('http://www.black-cat-salon.com/images/bkg.gif') repeat top center;
+    padding-bottom: 100px;
+}
+
+#about
+{
+    background:transparent url('http://www.black-cat-salon.com/images/aboutme.png') no-repeat top left;
+    width: 1000px;
+    height: 714px;
+    margin: 0px auto;
+    font-family: 'MarketingScriptRegular', Arial, sans-serif;  
+}
+
+#about .content
+{
+    padding: 230px 430px 100px 110px;
+}
+ 
+#team
+{
+    background:transparent url('http://www.black-cat-salon.com/images/team.png') no-repeat top left;
+    width: 1000px;
+    height: 730px;
+    margin: 200px auto;
+}   
+
+#team .content
+{
+    font-size: 10pt;
+    padding: 110px 330px 100px 130px;
+}
+
+#team .content .employee
+{
+    font-size: 120%;  
+    font-weight: normal;   
+    margin: 10px 0 0 20px;
+}
+
+#team .content .employee .name
+{
+    font-family: 'MarketingScriptRegular', Arial, sans-serif;  
+    font-size: 130%;   
+}
+
+#team .content .employee .desc
+{
+      
+}
+
+#salon
+{
+    background:transparent url('http://www.black-cat-salon.com/images/salon.png') no-repeat top left;
+    width: 1020px;
+    height: 737px;
+    margin: 0px auto;
+}
+
+#spa .content, #salon .content
+{
+    font-size: 10pt;
+    padding: 95px 100px 100px 130px;
+}
+
+#spa .content h2, #salon .content h2, #bridal .content h2
+{
+    font-size: 120%;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+#spa .content h3, #salon .content h3, #bridal .content h3
+{
+    font-size: 100%;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+    display: inline;
+}
+
+#spa .content hr, #salon .content hr, #bridal .content hr
+{
+    margin: 3px 0 0 0;
+    color: #474747;
+}
+
+#spa
+{
+    background:transparent url('http://www.black-cat-salon.com/images/spa.png') no-repeat top left;
+    width: 1000px;
+    height: 745px;
+    margin: 200px auto 0 auto;
+}
+
+#bridal
+{
+    background:transparent url('http://www.black-cat-salon.com/images/bridal.png') no-repeat top left;
+    width: 1000px;
+    height: 590px;
+    margin: 200px auto 0 auto;
+}
+
+#bridal .content
+{
+    font-size: 10pt;
+    padding: 80px 450px 100px 130px;
+}
+
+#contact
+{
+    background:transparent url('http://www.black-cat-salon.com/images/contactus.png') no-repeat top left;
+    width: 1070px;
+    height: 581px;
+    margin: 200px auto 0 auto;
+}
+
+#contact .content
+{
+    font-size: 12pt;
+    padding: 116px 50px 100px 100px;
+}
+
+#contact .content h2
+{
+    font-size: 120%;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+#contact .content h3
+{
+    font-size: 100%;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+#menu
+{
+    background:transparent url('http://www.black-cat-salon.com/images/link_bar.png') no-repeat top left;
+    margin-left: -437px;
+    width: 874px;
+    height: 91px;
+    left: 50%;
+    bottom: 20px;
+    position:fixed;
+    z-index: 9999;
+}
+
+#menu table td
+{
+    width: 874px;
+    height: 91px;
+    text-align: center;
+    vertical-align: middle;
+}
