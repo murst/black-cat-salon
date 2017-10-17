@@ -97,13 +97,13 @@ img
 
 #content
 {
-    background:#ffffff url('http://www.black-cat-salon.com/images/bkg.gif') repeat top center;
+    background:#ffffff url('/images/bkg.gif') repeat top center;
     padding-bottom: 100px;
 }
 
 #about
 {
-    background:transparent url('http://www.black-cat-salon.com/images/aboutme.png') no-repeat top left;
+    background:transparent url('/images/aboutme.png') no-repeat top left;
     width: 1000px;
     height: 714px;
     margin: 0px auto;
@@ -117,7 +117,7 @@ img
  
 #team
 {
-    background:transparent url('http://www.black-cat-salon.com/images/team.png') no-repeat top left;
+    background:transparent url('/images/team.png') no-repeat top left;
     width: 1000px;
     height: 730px;
     margin: 200px auto;
@@ -149,7 +149,7 @@ img
 
 #salon
 {
-    background:transparent url('http://www.black-cat-salon.com/images/salon.png') no-repeat top left;
+    background:transparent url('/images/salon.png') no-repeat top left;
     width: 1020px;
     height: 737px;
     margin: 0px auto;
@@ -184,7 +184,7 @@ img
 
 #spa
 {
-    background:transparent url('http://www.black-cat-salon.com/images/spa.png') no-repeat top left;
+    background:transparent url('/images/spa.png') no-repeat top left;
     width: 1000px;
     height: 745px;
     margin: 200px auto 0 auto;
@@ -192,7 +192,7 @@ img
 
 #bridal
 {
-    background:transparent url('http://www.black-cat-salon.com/images/bridal.png') no-repeat top left;
+    background:transparent url('/images/bridal.png') no-repeat top left;
     width: 1000px;
     height: 590px;
     margin: 200px auto 0 auto;
@@ -206,7 +206,7 @@ img
 
 #contact
 {
-    background:transparent url('http://www.black-cat-salon.com/images/contactus.png') no-repeat top left;
+    background:transparent url('/images/contactus.png') no-repeat top left;
     width: 1070px;
     height: 581px;
     margin: 200px auto 0 auto;
@@ -234,7 +234,7 @@ img
 
 #menu
 {
-    background:transparent url('http://www.black-cat-salon.com/images/link_bar.png') no-repeat top left;
+    background:transparent url('/images/link_bar.png') no-repeat top left;
     margin-left: -437px;
     width: 874px;
     height: 91px;
